@@ -23,7 +23,7 @@
     var memo22 = '河南省.郑州市'; // 地理位置
 
     var i = 1;
-    console.log(document.getElementById('bak_0').innerText);
+    
     window.onload = function () {
         if (document.title == '郑州大学统一身份认证平台' || document.title == '郑州大学师生健康上报平台') {
             document.getElementsByClassName('urls6h')[0].value = uid;
